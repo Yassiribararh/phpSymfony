@@ -30,3 +30,4 @@ Creating a new page - whether it’s an HTML page or a JSON endpoint - is a two-
 5- The bundle folder is now created in the src folder and contains the Controller and Resources
 6 - The resources folder contains the template of how the response is going to be displayed
 7- routing.yml contains the route of the application
+8- The page is complete and is supposed to display a welcome headline
