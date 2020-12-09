@@ -23,11 +23,11 @@ Creating a new page - whether it’s an HTML page or a JSON endpoint - is a two-
                      create a Symfony Response object, which can hold HTML content, a JSON string or even a binary file like an image or PDF.
 
 
-1- Started by removing the cach from the var folder
-2- Removed the app bundle [From : app/AppKernel, src/Appbundle,  app/config/services.yml] that is the demo bundle that comes with the installation of symfony (To start from the scratch)
-3- Back to the composer to execute "php bin/console"
-4- Running the commande "php bin/console generate:bundle" and follow the instructions of the Symfony bundle generator
-5- The bundle folder is now created in the src folder and contains the Controller and Resources
-6 - The resources folder contains the template of how the response is going to be displayed
-7- routing.yml contains the route of the application
-8- The page is complete and is supposed to display a welcome headline
+1- Started by removing the cach from the var folder<br>
+2- Removed the app bundle [From : app/AppKernel, src/Appbundle,  app/config/services.yml] that is the demo bundle that comes with the installation of symfony (To start from the scratch)<br>
+3- Back to the composer to execute "php bin/console"<br>
+4- Running the commande "php bin/console generate:bundle" and follow the instructions of the Symfony bundle generator<br>
+5- The bundle folder is now created in the src folder and contains the Controller and Resources<br>
+6 - The resources folder contains the template of how the response is going to be displayed<br>
+7- routing.yml contains the route of the application<br>
+8- The page is complete and is supposed to display a welcome headline<br>
